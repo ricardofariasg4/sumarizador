@@ -64,7 +64,10 @@ timestamp: 2020-11-02 10:26:46</pre>
 
 <h2>Uso</h2>
 <p>Se os passos acima foram bem sucedidos, estando na raiz do projeto basta executar o seguinte:<br>
-<code>./gps -d {diretório de arquivos log}</code>
+<code>./gps -d {diretório de arquivos log}</code><br><br>
+<b>Observação:</b> Se deseja passar o diretório logs que esteja localizado em sua home, faria: ~/logs ou /home/usuario/logs<br>
+no entanto, para que o programa leia corretamente, é necessário inserir uma barra final, para indicar que se trata de um diretório, dessa forma, você
+deve passar: ~/logs/ ou /home/usuario/logs/
 </p>
 
   <h2>Arquivos para teste</h2>
