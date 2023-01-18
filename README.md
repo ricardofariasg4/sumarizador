@@ -51,6 +51,17 @@ right_torque_effectiveness: 85.5 percent
 speed: 3.312 m/s
 timestamp: 2020-11-02 10:26:46</pre>
 
+<p>O programa deverá apresentar as seguintes opções ao usuário:</p>
+<ul>
+  <li>Bicicletas Encontradas: Mostra todas as bicicletas encontradas durante o processamento dos arquivos de log.</li>
+  <li>Pede para o usuário informar uma das bicicletas encontradas e apresenta a lista de atividades, resumo conforme descrito acima.</li>
+  <li>Lista todas atividades agrupadas por bicicleta e ordenadas pela data</li>
+  <li>Lista todas atividades agrupadas por bicicleta e ordenadas pela distância</li>
+  <li>Lista todas atividades ordenadas pela subida acumulada</li>
+  <li>Histograma: O usuário deve escolher uma bicicleta e apresentar um histograma da seguinte forma:
+  O histograma deve mostrar a distribuição da distância das atividades da bicicleta escolhida como no exemplo abaixo. Para facilitar a comparação, o    gráfico deve conter um número fixo de colunas no qual cada coluna contém os intervalos de 10km. Para definir o número de colunas, você deve encontrar a atividade mais curta (C) e a mais longa (L). Por exemplo, suponha C = 25 e L = 124. Nesse caso, a primeira linha do histograma vai de 20 a 29, a segunda de 30 a 39 e assim por diante sendo que a última linha deve conter a atividade mais longa. O histograma pode ser apresentado no formato ASCII como no exemplo abaixo, com as distâncias no eixo y e a quantidade de atividades no eixo x:</li>
+<img src="https://wiki.inf.ufpr.br/maziero/lib/exe/fetch.php?w=450&tok=9a4c5b&media=prog2:histogramaascii.png"></img>
+
 <h2>Funcionamento</h2>
 <p>O programa lê vários dados de logs de GPS de um determinado diretório, especificado na chamada do programa, com isso, realiza a sumarização dos dados</p>
 
